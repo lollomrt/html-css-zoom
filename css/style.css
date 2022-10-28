@@ -3,3 +3,99 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-color: #000;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: 12px;
+}
+
+header {
+    width: 100vw;
+    height: 40px;
+    padding: 5px;
+}
+
+main {
+    width: 100vw;
+    height: calc(100vh - 110px);
+    background: yellow;
+}
+
+footer {
+    width: 100vw;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    background: #222222;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.col-100 {
+    width: 100%;
+}
+
+.col-25 {
+    width: 25%;
+    display: flex;
+}
+
+.col-50 {
+    width: 50%;
+    display: flex;
+}
+
+.align-right {
+    justify-content: flex-end;
+}
+
+.align-center {
+    justify-content: center;
+}
+
+
+/* Header */
+
+.contenuto-header {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn-header{
+    background-color: #4a4a4a;
+    margin-left: 10px;
+    padding: 4px;
+    border-radius: 6px;
+}
+
+/* footer */
+
+.contenitore-footer{
+    display: flex;
+    align-items: center;
+}
+
+.footer-item {
+    display: flex;
+    align-items: center;
+}
+
+.icona-scritta {
+    text-align: center;
+    padding: 0 10px;
+}
+
+.icona-scritta i {
+    font-size: 22px;
+    padding-bottom: 10px;
+}
+
+.green {
+    color:#4bc800
+}
