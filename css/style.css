@@ -103,8 +103,9 @@ img {
     position: absolute;
     bottom: 0;
     left: 0;
-    background-color: rgb(0, 0, 0, 0.3);
+    background-color: rgb(0, 0, 0, 0.4);
     padding: 5px;
+    line-height: 0;
 }
 
 /* footer */
@@ -126,9 +127,17 @@ img {
 
 .icona-scritta i {
     font-size: 22px;
-    padding-bottom: 10px;
+    line-height: 0;
+    padding-bottom: 20px;
 }
 
 .green {
     color:#4bc800
+}
+
+.grey {
+    background: #4a4a4a;
+    color: red;
+    height: 70px;
+    padding: 0 20px;
 }
